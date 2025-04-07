@@ -1,0 +1,12 @@
+- базовые команды bash: touch, rm, cd, mkdir, rmdir, ls, cp, mv, cat, echo, grep, find
+- возможность подавать результат одних команд другим на примере grep (`ls | grep x`)
+- установка библиотек (`brew` в маке и `apt-install` в Ubuntu)
+- удобный инструмент для документации: `tldr`
+- `nano` - редактирование файлов
+- `chmod +x script.bash` - позволит запустить скрипт
+- пишем простой скрипт на bash: считаем количество файлов в директории
+- пишем более сложный скрипт на bash: считаем количество .py файлов, с и без рекурсии; считаем количество появления слова board во всех файлах, только в нижнем регистре
+- как работают ошибки в bash и команда `set -e`
+- переменные, экранирование (`output=$(ls)`, `echo "My output: $output"`)
+- [Статья про PATH](https://losst.pro/peremennaya-path-v-linux)
+- [Статья про .bashrc](https://itshaman.ru/articles/1562/chto-takoe-bashrc-i-kak-ego-nastroit-ego-pravilno)
